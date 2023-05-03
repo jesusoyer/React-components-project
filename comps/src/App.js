@@ -8,16 +8,16 @@ function App(){
 
 
         <div>
-            <Button success rounded outline>touch me</Button>
+            <Button primary>touch me</Button>
         </div>
         <div>
-            <Button>buy now</Button>
+            <Button secondary>buy now</Button>
         </div>
         <div>
-            <Button>eat here</Button>
+            <Button warning>eat here</Button>
         </div>
         <div>
-            <Button>run fast</Button>
+            <Button danger>run fast</Button>
         </div>
 
 

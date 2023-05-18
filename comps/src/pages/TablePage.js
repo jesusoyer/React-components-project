@@ -16,7 +16,8 @@ const config = [
     render: (fruit) => <div className={`p-3 m-2 ${fruit.color}`}></div>
 },
     {label: "Score",
-    render: (fruit) => fruit.score
+    render: (fruit) => fruit.score,
+    header: () => <th key="asdf" className="bg-red-500">Score</th>,
 },
 
 ];
